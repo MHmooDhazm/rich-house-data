@@ -31,6 +31,14 @@
       "icon": "fas fa-bed",
       "type": "main",
       "parentId": null
+    },
+    {
+      "id": 1762732067974,
+      "name": "تاكي",
+      "description": "برندات تاكي",
+      "icon": "fas fa-bed",
+      "type": "sub",
+      "parentId": "1762731914220"
     }
   ],
   "products": [],
@@ -55,5 +63,5 @@
     }
   ],
   "settings": {},
-  "last_updated": "2025-11-09T23:45:14.222Z"
+  "last_updated": "2025-11-09T23:47:47.975Z"
 }
