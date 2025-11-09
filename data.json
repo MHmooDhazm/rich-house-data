@@ -55,6 +55,14 @@
       "icon": "fas fa-bed",
       "type": "sub",
       "parentId": "1762731914220"
+    },
+    {
+      "id": 1762732152543,
+      "name": "هابي تات",
+      "description": "جميع انواع",
+      "icon": "fas fa-bed",
+      "type": "sub",
+      "parentId": "1762731914220"
     }
   ],
   "products": [],
@@ -79,5 +87,5 @@
     }
   ],
   "settings": {},
-  "last_updated": "2025-11-09T23:48:49.761Z"
+  "last_updated": "2025-11-09T23:49:12.544Z"
 }
