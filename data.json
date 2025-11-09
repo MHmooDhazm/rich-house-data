@@ -1,0 +1,55 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "المراتب",
+      "icon": "fas fa-bed",
+      "description": "أفضل المراتب الفاخرة"
+    },
+    {
+      "id": 2,
+      "name": "المخدات", 
+      "icon": "fas fa-pillow",
+      "description": "مخدات مريحة وعالية الجودة"
+    },
+    {
+      "id": 3,
+      "name": "المفارش",
+      "icon": "fas fa-blanket", 
+      "description": "مفارش فاخرة بأنواع مختلفة"
+    },
+    {
+      "id": 4,
+      "name": "اقتصادي",
+      "icon": "fas fa-tag",
+      "description": "منتجات اقتصادية بجودة عالية"
+    }
+  ],
+  "products": [],
+  "offers": [
+    {
+      "id": 1,
+      "title": "عرض خاص على المراتب",
+      "image": "1.jpg",
+      "description": "عروض خاصة على جميع أنواع المراتب بأسعار مميزة"
+    },
+    {
+      "id": 2, 
+      "title": "تخفيضات على المخدات",
+      "image": "2.jpg",
+      "description": "خصومات كبيرة على المخدات الفاخرة"
+    },
+    {
+      "id": 3,
+      "title": "عروض المفارش",
+      "image": "3.jpg", 
+      "description": "عروض حصرية على المفارش بجودة عالية"
+    }
+  ],
+  "settings": {
+    "store_name": "Rich House",
+    "whatsapp_number": "201154975655",
+    "currency": "جنيه",
+    "last_updated": "2024-01-01T00:00:00.000Z"
+  }
+    }
