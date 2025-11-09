@@ -23,12 +23,6 @@
       "name": "اقتصادي",
       "icon": "fas fa-tag",
       "description": "منتجات اقتصادية بجودة عالية"
-    },
-    {
-      "id": 1762659931134,
-      "name": "اخغخغخغحغحغ",
-      "description": "تغعفه",
-      "icon": "fas fa-bed"
     }
   ],
   "products": [],
@@ -53,5 +47,5 @@
     }
   ],
   "settings": {},
-  "last_updated": "2025-11-09T03:45:40.773Z"
+  "last_updated": "2025-11-09T03:47:23.530Z"
 }
