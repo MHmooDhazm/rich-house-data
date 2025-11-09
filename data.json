@@ -39,6 +39,14 @@
       "icon": "fas fa-bed",
       "type": "sub",
       "parentId": "1762731914220"
+    },
+    {
+      "id": 1762732102026,
+      "name": "انجلدرا",
+      "description": "جميع انواع",
+      "icon": "fas fa-bed",
+      "type": "sub",
+      "parentId": "1762731914220"
     }
   ],
   "products": [],
@@ -63,5 +71,5 @@
     }
   ],
   "settings": {},
-  "last_updated": "2025-11-09T23:47:47.975Z"
+  "last_updated": "2025-11-09T23:48:22.028Z"
 }
