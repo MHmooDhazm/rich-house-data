@@ -25,7 +25,25 @@
       "description": "منتجات اقتصادية بجودة عالية"
     }
   ],
-  "products": [],
+  "products": [
+    {
+      "id": "product_1762710106079",
+      "name": "قطن بلس",
+      "description": "مرتبه ارتفاع ٢٥ سم من شركه هابي تات",
+      "category": "1",
+      "image": "https://i.postimg.cc/PJk35dPb/images-2.jpg",
+      "hasSizes": true,
+      "hasLengths": false,
+      "hasColors": false,
+      "sizes": [
+        {
+          "name": "90سم",
+          "dimensions": "190/195/200",
+          "price": "4275 جنيه"
+        }
+      ]
+    }
+  ],
   "offers": [
     {
       "id": 1,
@@ -47,5 +65,5 @@
     }
   ],
   "settings": {},
-  "last_updated": "2025-11-09T03:47:23.530Z"
+  "last_updated": "2025-11-09T17:41:46.082Z"
 }
