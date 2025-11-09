@@ -25,37 +25,7 @@
       "description": "منتجات اقتصادية بجودة عالية"
     }
   ],
-  "products": [
-    {
-      "id": "product_1762710396383",
-      "name": "قطن بلس",
-      "description": "من شركه هابي تات\n(Hbitat)",
-      "category": "1",
-      "image": "https://i.postimg.cc/PJk35dPb/images-2.jpg",
-      "hasSizes": true,
-      "hasLengths": true,
-      "hasColors": false,
-      "sizes": [
-        {
-          "name": "90سم",
-          "dimensions": "",
-          "price": "4275 جنيه"
-        },
-        {
-          "name": "100سم",
-          "dimensions": "",
-          "price": "4590 جنيه"
-        }
-      ],
-      "lengths": [
-        {
-          "name": "190",
-          "dimensions": "",
-          "price": "6 جنيه"
-        }
-      ]
-    }
-  ],
+  "products": [],
   "offers": [
     {
       "id": 1,
@@ -77,5 +47,5 @@
     }
   ],
   "settings": {},
-  "last_updated": "2025-11-09T17:46:36.385Z"
+  "last_updated": "2025-11-09T17:47:39.143Z"
 }
