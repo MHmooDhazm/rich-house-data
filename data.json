@@ -23,6 +23,14 @@
       "name": "اقتصادي",
       "icon": "fas fa-tag",
       "description": "منتجات اقتصادية بجودة عالية"
+    },
+    {
+      "id": 1762723665383,
+      "name": "برندات ",
+      "description": "افضل برندات",
+      "icon": "fas fa-bed",
+      "type": "main",
+      "parentId": null
     }
   ],
   "products": [],
@@ -47,5 +55,5 @@
     }
   ],
   "settings": {},
-  "last_updated": "2025-11-09T21:23:50.395Z"
+  "last_updated": "2025-11-09T21:27:45.385Z"
 }
