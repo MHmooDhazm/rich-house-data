@@ -1,99 +1,173 @@
-{
-  "categories": [
+// data.js - بيانات المتجر
+window.categories = [
     {
-      "id": 1,
-      "name": "المراتب",
-      "icon": "fas fa-bed",
-      "description": "أفضل المراتب الفاخرة"
+        id: 1,
+        name: 'البرندات',
+        icon: 'fas fa-crown',
+        description: 'أفضل البرندات العالمية'
     },
     {
-      "id": 2,
-      "name": "المخدات",
-      "icon": "fas fa-pillow",
-      "description": "مخدات مريحة وعالية الجودة"
+        id: 2,
+        name: 'المخدات',
+        icon: 'fas fa-pillow',
+        description: 'مخدات مريحة وعالية الجودة'
     },
     {
-      "id": 3,
-      "name": "المفارش",
-      "icon": "fas fa-blanket",
-      "description": "مفارش فاخرة بأنواع مختلفة"
+        id: 3,
+        name: 'المفارش',
+        icon: 'fas fa-blanket',
+        description: 'مفارش فاخرة بأنواع مختلفة'
     },
     {
-      "id": 4,
-      "name": "اقتصادي",
-      "icon": "fas fa-tag",
-      "description": "منتجات اقتصادية بجودة عالية"
-    },
-    {
-      "id": 1762731914220,
-      "name": "برندات ",
-      "description": "جميع برندات",
-      "icon": "fas fa-bed",
-      "type": "main",
-      "parentId": null
-    },
-    {
-      "id": 1762732067974,
-      "name": "تاكي",
-      "description": "برندات تاكي",
-      "icon": "fas fa-bed",
-      "type": "sub",
-      "parentId": "1762731914220"
-    },
-    {
-      "id": 1762732102026,
-      "name": "انجلدرا",
-      "description": "جميع انواع",
-      "icon": "fas fa-bed",
-      "type": "sub",
-      "parentId": "1762731914220"
-    },
-    {
-      "id": 1762732129761,
-      "name": "فور بد",
-      "description": "جميع انواع",
-      "icon": "fas fa-bed",
-      "type": "sub",
-      "parentId": "1762731914220"
-    },
-    {
-      "id": 1762732152543,
-      "name": "هابي تات",
-      "description": "جميع انواع",
-      "icon": "fas fa-bed",
-      "type": "sub",
-      "parentId": "1762731914220"
-    },
-    {
-      "id": 1762732177825,
-      "name": "يانسين",
-      "description": "جميع انواع",
-      "icon": "fas fa-bed",
-      "type": "sub",
-      "parentId": "1762731914220"
+        id: 4,
+        name: 'اقتصادي',
+        icon: 'fas fa-tag',
+        description: 'منتجات اقتصادية بجودة عالية'
     }
-  ],
-  "products": [],
-  "offers": [
+];
+
+window.products = [
+    // قسم البرندات - فور بد
     {
-      "id": 1,
-      "title": "عرض خاص على المراتب",
-      "image": "1.jpg",
-      "description": "عروض خاصة على جميع أنواع المراتب بأسعار مميزة"
+        id: 'forbed_star_25',
+        name: 'فور بد استار ارتفاع ٢٥سم',
+        description: 'مرتبة فور بد استار بجودة عالية',
+        categoryId: 1,
+        sizes: [
+            { name: '100سم', price: 1400, dimensions: '100×200 سم' },
+            { name: '120سم', price: 1680, dimensions: '120×200 سم' },
+            { name: '150سم', price: 2100, dimensions: '150×200 سم' },
+            { name: '160سم', price: 2240, dimensions: '160×200 سم' },
+            { name: '170سم', price: 2380, dimensions: '170×200 سم' },
+            { name: '180سم', price: 2520, dimensions: '180×200 سم' }
+        ]
     },
     {
-      "id": 2,
-      "title": "تخفيضات على المخدات",
-      "image": "2.jpg",
-      "description": "خصومات كبيرة على المخدات الفاخرة"
+        id: 'forbed_star_30',
+        name: 'فور بد استار ارتفاع ٣٠سم',
+        description: 'مرتبة فور بد استار بجودة عالية',
+        categoryId: 1,
+        sizes: [
+            { name: '100سم', price: 1800, dimensions: '100×200 سم' },
+            { name: '120سم', price: 2160, dimensions: '120×200 سم' },
+            { name: '150سم', price: 2700, dimensions: '150×200 سم' },
+            { name: '160سم', price: 2880, dimensions: '160×200 سم' },
+            { name: '170سم', price: 3060, dimensions: '170×200 سم' },
+            { name: '180سم', price: 3240, dimensions: '180×200 سم' }
+        ]
+    },
+
+    // قسم البرندات - تاكي
+    {
+        id: 'taki_fine_25',
+        name: 'تاكي فاين ارتفاع ٢٥سم',
+        description: 'مرتبة تاكي فاين فاخرة',
+        categoryId: 1,
+        sizes: [
+            { name: '100سم', price: 1200, dimensions: '100×200 سم' },
+            { name: '120سم', price: 1440, dimensions: '120×200 سم' },
+            { name: '150سم', price: 1800, dimensions: '150×200 سم' },
+            { name: '160سم', price: 1920, dimensions: '160×200 سم' },
+            { name: '170سم', price: 2040, dimensions: '170×200 سم' },
+            { name: '180سم', price: 2160, dimensions: '180×200 سم' }
+        ]
     },
     {
-      "id": 3,
-      "title": "عروض المفارش",
-      "image": "3.jpg",
-      "description": "عروض حصرية على المفارش بجودة عالية"
+        id: 'taki_fine_30',
+        name: 'تاكي فاين ارتفاع ٣٠سم',
+        description: 'مرتبة تاكي فاين فاخرة',
+        categoryId: 1,
+        sizes: [
+            { name: '100سم', price: 1600, dimensions: '100×200 سم' },
+            { name: '120سم', price: 1920, dimensions: '120×200 سم' },
+            { name: '150سم', price: 2400, dimensions: '150×200 سم' },
+            { name: '160سم', price: 2560, dimensions: '160×200 سم' },
+            { name: '170سم', price: 2720, dimensions: '170×200 سم' },
+            { name: '180سم', price: 2880, dimensions: '180×200 سم' }
+        ]
+    },
+
+    // قسم المخدات
+    {
+        id: 'pillow_economic',
+        name: 'خداديه اقتصادية',
+        description: 'مخدات اقتصادية بجودة جيدة',
+        categoryId: 2,
+        sizes: [
+            { name: '100سم', price: 60, dimensions: '100×200 سم' },
+            { name: '120سم', price: 72, dimensions: '120×200 سم' },
+            { name: '150سم', price: 90, dimensions: '150×200 سم' },
+            { name: '160سم', price: 96, dimensions: '160×200 سم' },
+            { name: '170سم', price: 102, dimensions: '170×200 سم' },
+            { name: '180سم', price: 108, dimensions: '180×200 سم' }
+        ]
+    },
+    {
+        id: 'pillow_baffa',
+        name: 'خداديه بافته',
+        description: 'مخدات بافته مريحة',
+        categoryId: 2,
+        sizes: [
+            { name: '100سم', price: 120, dimensions: '100×200 سم' },
+            { name: '120سم', price: 144, dimensions: '120×200 سم' },
+            { name: '150سم', price: 180, dimensions: '150×200 سم' },
+            { name: '160سم', price: 192, dimensions: '160×200 سم' },
+            { name: '170سم', price: 204, dimensions: '170×200 سم' },
+            { name: '180سم', price: 216, dimensions: '180×200 سم' }
+        ]
+    },
+
+    // قسم المفارش
+    {
+        id: 'cover_egyptian',
+        name: 'كفر بشكير مصري',
+        description: 'كفر بشكير مصري عالي الجودة',
+        categoryId: 3,
+        sizes: [
+            { name: 'قياس واحد', price: 150, dimensions: 'مقاس قياسي' }
+        ]
+    },
+    {
+        id: 'cover_imported',
+        name: 'كفر بشكير مستورد',
+        description: 'كفر بشكير مستورد فاخر',
+        categoryId: 3,
+        sizes: [
+            { name: 'قياس واحد', price: 200, dimensions: 'مقاس قياسي' }
+        ]
+    },
+
+    // قسم اقتصادي - إسفنج
+    {
+        id: 'sponge_10',
+        name: 'اسفنج ضغط ارتفاع ١٠ سم',
+        description: 'اسفنج ضغط اقتصادي',
+        categoryId: 4,
+        sizes: [
+            { name: '100سم', price: 500, dimensions: '100×200 سم' },
+            { name: '120سم', price: 600, dimensions: '120×200 سم' },
+            { name: '150سم', price: 750, dimensions: '150×200 سم' },
+            { name: '160سم', price: 800, dimensions: '160×200 سم' },
+            { name: '170سم', price: 850, dimensions: '170×200 سم' },
+            { name: '180سم', price: 900, dimensions: '180×200 سم' }
+        ]
+    },
+    {
+        id: 'sponge_15',
+        name: 'اسفنج ضغط ارتفاع ١٥ سم',
+        description: 'اسفنج ضغط اقتصادي',
+        categoryId: 4,
+        sizes: [
+            { name: '100سم', price: 750, dimensions: '100×200 سم' },
+            { name: '120سم', price: 900, dimensions: '120×200 سم' },
+            { name: '150سم', price: 1125, dimensions: '150×200 سم' },
+            { name: '160سم', price: 1200, dimensions: '160×200 سم' },
+            { name: '170سم', price: 1275, dimensions: '170×200 سم' },
+            { name: '180سم', price: 1350, dimensions: '180×200 سم' }
+        ]
     }
-  ],
-  "settings": {},
-  "last_updated": "2025-11-09T23:49:37.828Z"
-}
+];
+
+console.log('✅ تم تحميل بيانات المتجر بنجاح!');
+console.log(`- عدد الأقسام: ${window.categories.length}`);
+console.log(`- عدد المنتجات: ${window.products.length}`);
