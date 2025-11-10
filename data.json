@@ -2,9 +2,9 @@
   "categories": [
     {
       "id": 1,
-      "name": "المراتب",
-      "icon": "fas fa-bed",
-      "description": "أفضل المراتب الفاخرة",
+      "name": "البرندات",
+      "icon": "fas fa-crown",
+      "description": "أفضل البرندات العالمية",
       "type": "main"
     },
     {
@@ -27,55 +27,29 @@
       "icon": "fas fa-tag",
       "description": "منتجات اقتصادية بجودة عالية",
       "type": "main"
-    },
-    {
-      "id": 1762731914220,
-      "name": "برندات ",
-      "description": "جميع برندات",
-      "icon": "fas fa-bed",
-      "type": "main",
-      "parentId": null
-    },
-    {
-      "id": 1762732067974,
-      "name": "تاكي",
-      "description": "برندات تاكي",
-      "icon": "fas fa-bed",
-      "type": "sub",
-      "parentId": "1762731914220"
-    },
-    {
-      "id": 1762732102026,
-      "name": "انجلدرا",
-      "description": "جميع انواع",
-      "icon": "fas fa-bed",
-      "type": "sub",
-      "parentId": "1762731914220"
-    },
-    {
-      "id": 1762732129761,
-      "name": "فور بد",
-      "description": "جميع انواع",
-      "icon": "fas fa-bed",
-      "type": "sub",
-      "parentId": "1762731914220"
-    },
-    {
-      "id": 1762732152543,
-      "name": "هابي تات",
-      "description": "جميع انواع",
-      "icon": "fas fa-bed",
-      "type": "sub",
-      "parentId": "1762731914220"
-    },
-    {
-      "id": 1762732177825,
-      "name": "يانسين",
-      "description": "جميع انواع",
-      "icon": "fas fa-bed",
-      "type": "sub",
-      "parentId": "1762731914220"
     }
   ],
-  "products": []
+  "products": [
+    {
+      "id": "forbed_star_25",
+      "name": "فور بد استار ارتفاع ٢٥سم",
+      "description": "مرتبة فور بد استار بجودة عالية",
+      "mainCategory": "1",
+      "image": "https://via.placeholder.com/400x300/333/ffffff?text=فور+بد+استار",
+      "hasSizes": true,
+      "sizes": [
+        {
+          "name": "100سم",
+          "price": 1400,
+          "dimensions": "100×200 سم"
+        },
+        {
+          "name": "120سم",
+          "price": 1680,
+          "dimensions": "120×200 سم"
+        }
+      ]
+    }
+  ],
+  "last_updated": "2024-01-01T00:00:00.000Z"
 }
