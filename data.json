@@ -1,55 +1,86 @@
 {
+  "products": [],
   "categories": [
     {
-      "id": 1,
+      "id": "brands",
       "name": "البرندات",
-      "icon": "fas fa-crown",
-      "description": "أفضل البرندات العالمية",
-      "type": "main"
+      "icon": "fas fa-tags"
     },
     {
-      "id": 2,
-      "name": "المخدات",
-      "icon": "fas fa-pillow",
-      "description": "مخدات مريحة وعالية الجودة",
-      "type": "main"
+      "id": "pillows",
+      "name": "مخدات",
+      "icon": "fas fa-bed"
     },
     {
-      "id": 3,
-      "name": "المفارش",
-      "icon": "fas fa-blanket",
-      "description": "مفارش فاخرة بأنواع مختلفة",
-      "type": "main"
+      "id": "bedding",
+      "name": "مفارش",
+      "icon": "fas fa-blanket"
     },
     {
-      "id": 4,
+      "id": "economic",
       "name": "اقتصادي",
-      "icon": "fas fa-tag",
-      "description": "منتجات اقتصادية بجودة عالية",
-      "type": "main"
-    }
-  ],
-  "products": [
+      "icon": "fas fa-money-bill-wave"
+    },
     {
-      "id": "forbed_star_25",
-      "name": "فور بد استار ارتفاع ٢٥سم",
-      "description": "مرتبة فور بد استار بجودة عالية",
-      "mainCategory": "1",
-      "image": "https://via.placeholder.com/400x300/333/ffffff?text=فور+بد+استار",
-      "hasSizes": true,
-      "sizes": [
-        {
-          "name": "100سم",
-          "price": 1400,
-          "dimensions": "100×200 سم"
-        },
-        {
-          "name": "120سم",
-          "price": 1680,
-          "dimensions": "120×200 سم"
-        }
-      ]
+      "id": "testimonials",
+      "name": "توثيقات",
+      "icon": "fas fa-star"
     }
   ],
-  "last_updated": "2025-11-10T08:14:02.624Z"
-}
+  "brands": [
+    {
+      "id": "happy",
+      "name": "هابي",
+      "logo": "HAPPY"
+    },
+    {
+      "id": "tat",
+      "name": "تات",
+      "logo": "TAT"
+    },
+    {
+      "id": "englander",
+      "name": "انجلدرا",
+      "logo": "ENGLANDER"
+    },
+    {
+      "id": "four-bed",
+      "name": "فور بد",
+      "logo": "FOUR BED"
+    },
+    {
+      "id": "jachsen",
+      "name": "يانسين",
+      "logo": "JACHSEN"
+    },
+    {
+      "id": "majesty-grand",
+      "name": "ماجستي & جراند",
+      "logo": "MAJESTY & GRAND"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "سارة",
+      "text": "منتجات رائعة وجميلة، أنصح الجميع بالتعامل مع RichHouse",
+      "image": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iNDAiIGN5PSI0MCIgcj0iNDAiIGZpbGw9IiNkMmI0OGMiLz48dGV4dCB4PSI0MCIgeT0iNDUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzVkNDAzNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9IjAuMzVlbSI+UzwvdGV4dD48L3N2Zz4="
+    },
+    {
+      "name": "مها",
+      "text": "جودة المنتجات ممتازة والأسعار مناسبة جداً",
+      "image": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iNDAiIGN5PSI0MCIgcj0iNDAiIGZpbGw9IiNkMmI0OGMiLz48dGV4dCB4PSI0MCIgeT0iNDUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzVkNDAzNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9IjAuMzVlbSI+TTwvdGV4dD48L3N2Zz4="
+    },
+    {
+      "name": "شيما",
+      "text": "خدمة عملاء ممتازة وتوصيل سريع، شكراً لكم",
+      "image": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iNDAiIGN5PSI0MCIgcj0iNDAiIGZpbGw9IiNkMmI0OGMiLz48dGV4dCB4PSI0MCIgeT0iNDUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzVkNDAzNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9IjAuMzVlbSI+U2g8L3RleHQ+PC9zdmc+"
+    }
+  ],
+  "settings": {
+    "telegramToken": "8501596447:AAGK5xqwgyeDWaMPoUKBayYPNSRXFL5jZaA",
+    "chatId": "7573555561",
+    "githubUsername": "MHmooDhazm",
+    "githubRepo": "rich-house-data",
+    "githubToken": "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"
+  }
+  }
