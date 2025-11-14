@@ -1,86 +1,116 @@
 {
-  "products": [],
-  "categories": [
-    {
-      "id": "brands",
+  "siteSettings": {
+    "name": "RichHouse",
+    "logo": "mklop.png",
+    "colors": {
+      "primary": "#8B4513",
+      "secondary": "#D2691E",
+      "accent": "#F4A460",
+      "light": "#FAEBD7",
+      "dark": "#654321"
+    },
+    "contact": {
+      "phones": ["01154975655", "01013608610"],
+      "address": "مصر - القاهرة",
+      "email": "info@richhouse.com"
+    },
+    "social": {
+      "facebook": "#",
+      "instagram": "#",
+      "whatsapp": "#",
+      "telegram": "#"
+    }
+  },
+  "categories": {
+    "brands": {
       "name": "البرندات",
-      "icon": "fas fa-tags"
+      "image": "brands.jpg",
+      "subcategories": {
+        "taki": {
+          "name": "تاكي",
+          "image": "https://via.placeholder.com/400/8B4513/FFFFFF?text=تاكي"
+        },
+        "happy-tat": {
+          "name": "هابي تات",
+          "image": "https://via.placeholder.com/400/D2691E/FFFFFF?text=هابي+تات"
+        },
+        "englidera": {
+          "name": "انجلدرا",
+          "image": "https://via.placeholder.com/400/F4A460/654321?text=انجلدرا"
+        },
+        "four-bed": {
+          "name": "فور بد",
+          "image": "https://via.placeholder.com/400/654321/FAEBD7?text=فور+بد"
+        },
+        "yansin": {
+          "name": "يانسين",
+          "image": "https://via.placeholder.com/400/8B4513/FFFFFF?text=يانسين"
+        },
+        "majesty-grand": {
+          "name": "ماجستي & جراند",
+          "image": "https://via.placeholder.com/400/D2691E/FFFFFF?text=ماجستي+جراند"
+        }
+      }
     },
-    {
-      "id": "pillows",
-      "name": "مخدات",
-      "icon": "fas fa-bed"
+    "bedding": {
+      "name": "المفارش",
+      "image": "bedding.jpg",
+      "subcategories": {
+        "cotton-luxury": {
+          "name": "قطني فاخر",
+          "image": "https://via.placeholder.com/400/F4A460/654321?text=قطني+فاخر"
+        },
+        "satin": {
+          "name": "ساتان",
+          "image": "https://via.placeholder.com/400/654321/FAEBD7?text=ساتان"
+        },
+        "cotton-regular": {
+          "name": "قطني عادي",
+          "image": "https://via.placeholder.com/400/8B4513/FFFFFF?text=قطني+عادي"
+        }
+      }
     },
-    {
-      "id": "bedding",
-      "name": "مفارش",
-      "icon": "fas fa-blanket"
+    "pillows": {
+      "name": "المخدات",
+      "image": "pillows.jpg",
+      "subcategories": {
+        "memory-foam": {
+          "name": "رغوة الذاكرة",
+          "image": "https://via.placeholder.com/400/D2691E/FFFFFF?text=رغوة+الذاكرة"
+        },
+        "feather": {
+          "name": "الريش",
+          "image": "https://via.placeholder.com/400/F4A460/654321?text=الريش"
+        },
+        "silicone": {
+          "name": "السيليكون",
+          "image": "https://via.placeholder.com/400/654321/FAEBD7?text=السيليكون"
+        },
+        "medical": {
+          "name": "طبية",
+          "image": "https://via.placeholder.com/400/8B4513/FFFFFF?text=طبية"
+        }
+      }
     },
-    {
-      "id": "economic",
+    "economic": {
       "name": "اقتصادي",
-      "icon": "fas fa-money-bill-wave"
-    },
-    {
-      "id": "testimonials",
-      "name": "توثيقات",
-      "icon": "fas fa-star"
+      "image": "economic.jpg",
+      "subcategories": {
+        "mattresses": {
+          "name": "مراتب اقتصادية",
+          "image": "https://via.placeholder.com/400/D2691E/FFFFFF?text=مراتب+اقتصادية"
+        },
+        "pillows": {
+          "name": "مخدات اقتصادية",
+          "image": "https://via.placeholder.com/400/F4A460/654321?text=مخدات+اقتصادية"
+        },
+        "bedding": {
+          "name": "مفارش اقتصادية",
+          "image": "https://via.placeholder.com/400/654321/FAEBD7?text=مفارش+اقتصادية"
+        }
+      }
     }
-  ],
-  "brands": [
-    {
-      "id": "happy",
-      "name": "هابي",
-      "logo": "HAPPY"
-    },
-    {
-      "id": "tat",
-      "name": "تات",
-      "logo": "TAT"
-    },
-    {
-      "id": "englander",
-      "name": "انجلدرا",
-      "logo": "ENGLANDER"
-    },
-    {
-      "id": "four-bed",
-      "name": "فور بد",
-      "logo": "FOUR BED"
-    },
-    {
-      "id": "jachsen",
-      "name": "يانسين",
-      "logo": "JACHSEN"
-    },
-    {
-      "id": "majesty-grand",
-      "name": "ماجستي & جراند",
-      "logo": "MAJESTY & GRAND"
-    }
-  ],
-  "testimonials": [
-    {
-      "name": "سارة",
-      "text": "منتجات رائعة وجميلة، أنصح الجميع بالتعامل مع RichHouse",
-      "image": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iNDAiIGN5PSI0MCIgcj0iNDAiIGZpbGw9IiNkMmI0OGMiLz48dGV4dCB4PSI0MCIgeT0iNDUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzVkNDAzNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9IjAuMzVlbSI+UzwvdGV4dD48L3N2Zz4="
-    },
-    {
-      "name": "مها",
-      "text": "جودة المنتجات ممتازة والأسعار مناسبة جداً",
-      "image": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iNDAiIGN5PSI0MCIgcj0iNDAiIGZpbGw9IiNkMmI0OGMiLz48dGV4dCB4PSI0MCIgeT0iNDUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzVkNDAzNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9IjAuMzVlbSI+TTwvdGV4dD48L3N2Zz4="
-    },
-    {
-      "name": "شيما",
-      "text": "خدمة عملاء ممتازة وتوصيل سريع، شكراً لكم",
-      "image": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iNDAiIGN5PSI0MCIgcj0iNDAiIGZpbGw9IiNkMmI0OGMiLz48dGV4dCB4PSI0MCIgeT0iNDUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzVkNDAzNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9IjAuMzVlbSI+U2g8L3RleHQ+PC9zdmc+"
-    }
-  ],
-  "settings": {
-    "telegramToken": "8501596447:AAGK5xqwgyeDWaMPoUKBayYPNSRXFL5jZaA",
-    "chatId": "7573555561",
-    "githubUsername": "MHmooDhazm",
-    "githubRepo": "rich-house-data",
-    "githubToken": "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"
-  }
-  }
+  },
+  "products": [],
+  "suggestions": []
+}
