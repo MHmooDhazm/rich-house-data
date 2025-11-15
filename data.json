@@ -24,7 +24,7 @@
   "categories": {
     "brands": {
       "name": "البرندات",
-      "image": "brands.jpg",
+      "image": "https://via.placeholder.com/400/8B4513/FFFFFF?text=البرندات",
       "subcategories": {
         "taki": {
           "name": "تاكي",
@@ -54,7 +54,7 @@
     },
     "bedding": {
       "name": "المفارش",
-      "image": "bedding.jpg",
+      "image": "https://via.placeholder.com/400/F4A460/654321?text=المفارش",
       "subcategories": {
         "cotton-luxury": {
           "name": "قطني فاخر",
@@ -72,7 +72,7 @@
     },
     "pillows": {
       "name": "المخدات",
-      "image": "pillows.jpg",
+      "image": "https://via.placeholder.com/400/D2691E/FFFFFF?text=المخدات",
       "subcategories": {
         "memory-foam": {
           "name": "رغوة الذاكرة",
@@ -94,7 +94,7 @@
     },
     "economic": {
       "name": "اقتصادي",
-      "image": "economic.jpg",
+      "image": "https://via.placeholder.com/400/8B4513/FFFFFF?text=اقتصادي",
       "subcategories": {
         "mattresses": {
           "name": "مراتب اقتصادية",
@@ -111,6 +111,55 @@
       }
     }
   },
-  "products": [],
-  "suggestions": []
+  "products": [
+    {
+      "id": 1,
+      "name": "مرتبة تاكي الفاخرة",
+      "description": "مرتبة تاكي الفاخرة مصنوعة من أفضل المواد لتوفر لك راحة لا مثيل لها ونوم هادئ. تتميز بطبقة رغوة الذاكرة التي تتكيف مع شكل جسمك.",
+      "price": 2500,
+      "image": "https://via.placeholder.com/400/8B4513/FFFFFF?text=تاكي+فاخرة",
+      "category": "brands",
+      "subcategory": "taki",
+      "featured": true,
+      "sizes": [
+        { "name": "Single", "price": 2500 },
+        { "name": "Double", "price": 3500 },
+        { "name": "Queen", "price": 4500 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "مخدة رغوة الذاكرة",
+      "description": "مخدة رغوة الذاكرة تتكيف مع شكل رأسك وعنقك لتوفر دعماً مثالياً وراحة طوال الليل.",
+      "price": 350,
+      "image": "https://via.placeholder.com/400/D2691E/FFFFFF?text=مخدة+رغوة",
+      "category": "pillows",
+      "subcategory": "memory-foam",
+      "featured": true,
+      "sizes": [
+        { "name": "Standard", "price": 350 },
+        { "name": "Queen", "price": 450 }
+      ]
+    }
+  ],
+  "suggestions": [
+    {
+      "id": 1,
+      "name": "مرتبة تاكي الفاخرة",
+      "price": 2500,
+      "image": "https://via.placeholder.com/400/8B4513/FFFFFF?text=تاكي+فاخرة"
+    },
+    {
+      "id": 2,
+      "name": "مخدة رغوة الذاكرة",
+      "price": 350,
+      "image": "https://via.placeholder.com/400/D2691E/FFFFFF?text=مخدة+رغوة"
+    },
+    {
+      "id": 3,
+      "name": "مفرش قطني فاخر",
+      "price": 1200,
+      "image": "https://via.placeholder.com/400/F4A460/654321?text=مفرش+قطني"
+    }
+  ]
 }
