@@ -1,165 +1,241 @@
 {
-  "siteSettings": {
-    "name": "RichHouse",
-    "logo": "mklop.png",
+  "products": [
+    {
+      "id": 1,
+      "name": "خداديه اقتصاديه",
+      "price": 60,
+      "description": "مخدة رغوة الذاكرة تتكيف مع شكل رأسك وعنقك لتوفر دعماً مثالياً وراحة طوال الليل. مصنوعة من أفضل المواد لتضمن لك نوماً هانئاً.",
+      "image": "تنزيل.jpeg",
+      "category": "pillows",
+      "sizes": [
+        {"name": "100", "price": 60},
+        {"name": "120", "price": 72},
+        {"name": "150", "price": 90},
+        {"name": "160", "price": 96},
+        {"name": "170", "price": 102},
+        {"name": "180", "price": 108}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "خداديه بفته",
+      "price": 120,
+      "description": "مخدة مصنوعة من الريش الطبيعي لتوفر لك راحة فائقة وتجربة نوم لا تُنسى. مثالية لمن يعانون من آلام الرقبة.",
+      "image": "تنزيل (1).jpeg",
+      "category": "pillows",
+      "sizes": [
+        {"name": "100", "price": 120},
+        {"name": "120", "price": 144},
+        {"name": "150", "price": 180},
+        {"name": "160", "price": 192},
+        {"name": "170", "price": 204},
+        {"name": "180", "price": 216}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "خداديه كابيتونيه",
+      "price": 150,
+      "description": "مخدة طبية مصممة خصيصاً لدعم الرقبة والعمود الفقري. مثالية لمن يعانون من آلام الظهر والرقبة.",
+      "image": "images (2).jpeg",
+      "category": "pillows",
+      "sizes": [
+        {"name": "100", "price": 150},
+        {"name": "120", "price": 180},
+        {"name": "150", "price": 225},
+        {"name": "160", "price": 240},
+        {"name": "170", "price": 255},
+        {"name": "180", "price": 270}
+      ]
+    },
+    {
+      "id": 4,
+      "name": "خداديه دبل بت",
+      "price": 200,
+      "description": "مخدة مصنوعة من القطن العضوي النقي، ناعمة الملمس ومريحة للغاية. مناسبة للبشرة الحساسة.",
+      "image": "images (3).jpeg",
+      "category": "pillows",
+      "sizes": [
+        {"name": "100", "price": 200},
+        {"name": "120", "price": 240},
+        {"name": "150", "price": 300},
+        {"name": "160", "price": 320},
+        {"name": "170", "price": 340},
+        {"name": "180", "price": 360}
+      ]
+    },
+    {
+      "id": 5,
+      "name": "خداديه استريد",
+      "price": 300,
+      "description": "مخدة ذكية مزودة بتقنية التبريد للحفاظ على درجة حرارة مثالية طوال الليل. مثالية للصيف.",
+      "image": "images (5).jpeg",
+      "category": "pillows",
+      "sizes": [
+        {"name": "100", "price": 300},
+        {"name": "120", "price": 360},
+        {"name": "150", "price": 450},
+        {"name": "160", "price": 480},
+        {"name": "170", "price": 510},
+        {"name": "180", "price": 540}
+      ]
+    },
+    {
+      "id": 6,
+      "name": "خداديه ريش نعام",
+      "price": 450,
+      "description": "مخدة مخصصة للأطفال بألوان زاهية ورسومات كرتونية. آمنة ومريحة للأطفال.",
+      "image": "images (4).jpeg",
+      "category": "pillows",
+      "sizes": [
+        {"name": "100", "price": 450},
+        {"name": "120", "price": 540},
+        {"name": "150", "price": 675},
+        {"name": "160", "price": 720},
+        {"name": "170", "price": 765},
+        {"name": "180", "price": 810}
+      ]
+    },
+    {
+      "id": 7,
+      "name": "كفر بشكير مصري",
+      "price": 200,
+      "description": "مفرش قطني فاخر مصنوع من أفضل أنواع القطن المصري. ناعم الملمس ومريح للغاية. مناسب لجميع الفصول ومقاوم للتجعد.",
+      "image": "تنزيل.jpeg",
+      "category": "bedding",
+      "sizes": [
+        {"name": "١٠٠سم", "price": 200}
+      ]
+    },
+    {
+      "id": 8,
+      "name": "كفر بشكير مستورد",
+      "price": 200,
+      "description": "كفر بشكير مستورد من انضف كفرات مقدم من RICH HOUSE",
+      "image": "تنزيل (1).jpeg",
+      "category": "bedding",
+      "sizes": [
+        {"name": "١٠٠سم", "price": 200}
+      ]
+    },
+    {
+      "id": 9,
+      "name": "اسفنج ضغط 10سم",
+      "price": 500,
+      "description": "ضمان 1سنه",
+      "image": "asfng.jpeg",
+      "category": "economic",
+      "sizes": [
+        {"name": "100", "price": 500},
+        {"name": "120", "price": 600},
+        {"name": "150", "price": 750},
+        {"name": "160", "price": 800},
+        {"name": "170", "price": 850},
+        {"name": "180", "price": 900}
+      ]
+    },
+    {
+      "id": 10,
+      "name": "اسفنج ضغط 15سم",
+      "price": 750,
+      "description": "ضمان 1سنه",
+      "image": "asfng.jpeg",
+      "category": "economic",
+      "sizes": [
+        {"name": "100", "price": 750},
+        {"name": "120", "price": 900},
+        {"name": "150", "price": 1120},
+        {"name": "160", "price": 1200},
+        {"name": "170", "price": 1275},
+        {"name": "180", "price": 1350}
+      ]
+    }
+  ],
+  "categories": {
+    "pillows": {
+      "name": "المخدات",
+      "image": "تنزيل.jpeg",
+      "hasSubcategories": false
+    },
+    "bedding": {
+      "name": "المفارش",
+      "image": "images (6).jpeg",
+      "hasSubcategories": false
+    },
+    "economic": {
+      "name": "اقتصادي",
+      "image": "تنزيل (3).jpeg",
+      "hasSubcategories": false
+    },
+    "brands": {
+      "name": "البرندات",
+      "image": "images (2).jpg",
+      "hasSubcategories": true,
+      "subcategories": {
+        "taki": {
+          "name": "تاكي",
+          "image": "images.png"
+        },
+        "happy-tat": {
+          "name": "هابي تات",
+          "image": "images (7).jpeg"
+        },
+        "englidera": {
+          "name": "انجلدرا",
+          "image": "images (1).png"
+        },
+        "four-bed": {
+          "name": "فور بد",
+          "image": "تنزيل (2).jpeg"
+        },
+        "yansin": {
+          "name": "يانسين",
+          "image": "تنزيل.png"
+        },
+        "majesty-grand": {
+          "name": "ماجستي & جراند",
+          "image": "فوريد.jpeg"
+        }
+      }
+    }
+  },
+  "orders": [],
+  "settings": {
+    "phoneNumbers": ["01154975655", "01013608610"],
+    "freeShippingThreshold": 2000,
+    "address": "مصر - القاهرة",
+    "telegram": {
+      "botToken": "8501596447:AAGK5xqwgyeDWaMPoUKBayYPNSRXFL5jZaA",
+      "chatId": "7292128411"
+    },
     "colors": {
       "primary": "#8B4513",
       "secondary": "#D2691E",
       "accent": "#F4A460",
       "light": "#FAEBD7",
       "dark": "#654321"
-    },
-    "contact": {
-      "phones": ["01154975655", "01013608610"],
-      "address": "مصر - القاهرة",
-      "email": "info@richhouse.com"
-    },
-    "social": {
-      "facebook": "#",
-      "instagram": "#",
-      "whatsapp": "#",
-      "telegram": "#"
     }
   },
-  "categories": {
-    "brands": {
-      "name": "البرندات",
-      "image": "https://via.placeholder.com/400/8B4513/FFFFFF?text=البرندات",
-      "subcategories": {
-        "taki": {
-          "name": "تاكي",
-          "image": "https://via.placeholder.com/400/8B4513/FFFFFF?text=تاكي"
-        },
-        "happy-tat": {
-          "name": "هابي تات",
-          "image": "https://via.placeholder.com/400/D2691E/FFFFFF?text=هابي+تات"
-        },
-        "englidera": {
-          "name": "انجلدرا",
-          "image": "https://via.placeholder.com/400/F4A460/654321?text=انجلدرا"
-        },
-        "four-bed": {
-          "name": "فور بد",
-          "image": "https://via.placeholder.com/400/654321/FAEBD7?text=فور+بد"
-        },
-        "yansin": {
-          "name": "يانسين",
-          "image": "https://via.placeholder.com/400/8B4513/FFFFFF?text=يانسين"
-        },
-        "majesty-grand": {
-          "name": "ماجستي & جراند",
-          "image": "https://via.placeholder.com/400/D2691E/FFFFFF?text=ماجستي+جراند"
-        }
-      }
-    },
-    "bedding": {
-      "name": "المفارش",
-      "image": "https://via.placeholder.com/400/F4A460/654321?text=المفارش",
-      "subcategories": {
-        "cotton-luxury": {
-          "name": "قطني فاخر",
-          "image": "https://via.placeholder.com/400/F4A460/654321?text=قطني+فاخر"
-        },
-        "satin": {
-          "name": "ساتان",
-          "image": "https://via.placeholder.com/400/654321/FAEBD7?text=ساتان"
-        },
-        "cotton-regular": {
-          "name": "قطني عادي",
-          "image": "https://via.placeholder.com/400/8B4513/FFFFFF?text=قطني+عادي"
-        }
-      }
-    },
-    "pillows": {
-      "name": "المخدات",
-      "image": "https://via.placeholder.com/400/D2691E/FFFFFF?text=المخدات",
-      "subcategories": {
-        "memory-foam": {
-          "name": "رغوة الذاكرة",
-          "image": "https://via.placeholder.com/400/D2691E/FFFFFF?text=رغوة+الذاكرة"
-        },
-        "feather": {
-          "name": "الريش",
-          "image": "https://via.placeholder.com/400/F4A460/654321?text=الريش"
-        },
-        "silicone": {
-          "name": "السيليكون",
-          "image": "https://via.placeholder.com/400/654321/FAEBD7?text=السيليكون"
-        },
-        "medical": {
-          "name": "طبية",
-          "image": "https://via.placeholder.com/400/8B4513/FFFFFF?text=طبية"
-        }
-      }
-    },
-    "economic": {
-      "name": "اقتصادي",
-      "image": "https://via.placeholder.com/400/8B4513/FFFFFF?text=اقتصادي",
-      "subcategories": {
-        "mattresses": {
-          "name": "مراتب اقتصادية",
-          "image": "https://via.placeholder.com/400/D2691E/FFFFFF?text=مراتب+اقتصادية"
-        },
-        "pillows": {
-          "name": "مخدات اقتصادية",
-          "image": "https://via.placeholder.com/400/F4A460/654321?text=مخدات+اقتصادية"
-        },
-        "bedding": {
-          "name": "مفارش اقتصادية",
-          "image": "https://via.placeholder.com/400/654321/FAEBD7?text=مفارش+اقتصادية"
-        }
-      }
-    }
-  },
-  "products": [
+  "offers": [
     {
-      "id": 1,
-      "name": "مرتبة تاكي الفاخرة",
-      "description": "مرتبة تاكي الفاخرة مصنوعة من أفضل المواد لتوفر لك راحة لا مثيل لها ونوم هادئ. تتميز بطبقة رغوة الذاكرة التي تتكيف مع شكل جسمك.",
-      "price": 2500,
-      "image": "https://via.placeholder.com/400/8B4513/FFFFFF?text=تاكي+فاخرة",
-      "category": "brands",
-      "subcategory": "taki",
-      "featured": true,
-      "sizes": [
-        { "name": "Single", "price": 2500 },
-        { "name": "Double", "price": 3500 },
-        { "name": "Queen", "price": 4500 }
-      ]
+      "title": "ضمان 10 سنوات",
+      "description": "ضمان شامل على جميع المنتجات",
+      "image": "mklop.png"
     },
     {
-      "id": 2,
-      "name": "مخدة رغوة الذاكرة",
-      "description": "مخدة رغوة الذاكرة تتكيف مع شكل رأسك وعنقك لتوفر دعماً مثالياً وراحة طوال الليل.",
-      "price": 350,
-      "image": "https://via.placeholder.com/400/D2691E/FFFFFF?text=مخدة+رغوة",
-      "category": "pillows",
-      "subcategory": "memory-foam",
-      "featured": true,
-      "sizes": [
-        { "name": "Standard", "price": 350 },
-        { "name": "Queen", "price": 450 }
-      ]
-    }
-  ],
-  "suggestions": [
-    {
-      "id": 1,
-      "name": "مرتبة تاكي الفاخرة",
-      "price": 2500,
-      "image": "https://via.placeholder.com/400/8B4513/FFFFFF?text=تاكي+فاخرة"
+      "title": "توصيل مجاني",
+      "description": "لجميع الطلبات فوق 2000 جنيه",
+      "image": "mklop.png"
     },
     {
-      "id": 2,
-      "name": "مخدة رغوة الذاكرة",
-      "price": 350,
-      "image": "https://via.placeholder.com/400/D2691E/FFFFFF?text=مخدة+رغوة"
+      "title": "تركيب مجاني",
+      "description": "في منزلك خلال 24 ساعة",
+      "image": "mklop.png"
     },
     {
-      "id": 3,
-      "name": "مفرش قطني فاخر",
-      "price": 1200,
-      "image": "https://via.placeholder.com/400/F4A460/654321?text=مفرش+قطني"
+      "title": "دفع عند الاستلام",
+      "description": "في جميع أنحاء القاهرة",
+      "image": "mklop.png"
     }
   ]
 }
