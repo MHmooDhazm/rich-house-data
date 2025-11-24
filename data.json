@@ -149,6 +149,86 @@
         {"name": "170", "price": 1275},
         {"name": "180", "price": 1350}
       ]
+    },
+    {
+      "id": 23,
+      "name": "دوفانا طبي 25سم",
+      "price": 2800,
+      "description": "ضمان 1سنه",
+      "image": "images (5).jpeg",
+      "category": "majesty-grand-dovana",
+      "sizes": [
+        {"name": "100", "price": 2800},
+        {"name": "120", "price": 3360},
+        {"name": "150", "price": 4200},
+        {"name": "160", "price": 4480},
+        {"name": "170", "price": 4760},
+        {"name": "180", "price": 5040}
+      ]
+    },
+    {
+      "id": 24,
+      "name": "دوفانا طبي 30سم",
+      "price": 3500,
+      "description": "ضمان 1سنه",
+      "image": "images (5).jpeg",
+      "category": "majesty-grand-dovana",
+      "sizes": [
+        {"name": "100", "price": 3500},
+        {"name": "120", "price": 4200},
+        {"name": "150", "price": 5250},
+        {"name": "160", "price": 5600},
+        {"name": "170", "price": 5950},
+        {"name": "180", "price": 6300}
+      ]
+    },
+    {
+      "id": 25,
+      "name": "دوفانا طبي 35سم",
+      "price": 4100,
+      "description": "ضمان 1سنه",
+      "image": "images (5).jpeg",
+      "category": "majesty-grand-dovana",
+      "sizes": [
+        {"name": "100", "price": 4100},
+        {"name": "120", "price": 4920},
+        {"name": "150", "price": 6150},
+        {"name": "160", "price": 6560},
+        {"name": "170", "price": 6970},
+        {"name": "180", "price": 7380}
+      ]
+    },
+    {
+      "id": 26,
+      "name": "دوفانا 25سم",
+      "price": 3200,
+      "description": "ضمان 1سنه",
+      "image": "images (6).jpeg",
+      "category": "majesty-grand-dovana",
+      "sizes": [
+        {"name": "100", "price": 3200},
+        {"name": "120", "price": 3840},
+        {"name": "150", "price": 4800},
+        {"name": "160", "price": 5120},
+        {"name": "170", "price": 5440},
+        {"name": "180", "price": 5760}
+      ]
+    },
+    {
+      "id": 27,
+      "name": "دوفانا 30سم",
+      "price": 4500,
+      "description": "ضمان 1سنه",
+      "image": "images (6).jpeg",
+      "category": "majesty-grand-dovana",
+      "sizes": [
+        {"name": "100", "price": 5400},
+        {"name": "120", "price": 5400},
+        {"name": "150", "price": 6750},
+        {"name": "160", "price": 7200},
+        {"name": "170", "price": 7650},
+        {"name": "180", "price": 8100}
+      ]
     }
   ],
   "categories": {
@@ -165,6 +245,16 @@
     "economic": {
       "name": "اقتصادي",
       "image": "تنزيل (3).jpeg",
+      "hasSubcategories": false
+    },
+    "majesty-grand-dovana": {
+      "name": "ماجستي & جراند & دوفانا",
+      "image": "فوريد.jpeg",
+      "hasSubcategories": false
+    },
+    "grandy": {
+      "name": "جراندي",
+      "image": "images (2).jpg",
       "hasSubcategories": false
     },
     "brands": {
@@ -191,31 +281,11 @@
         "yansin": {
           "name": "يانسين",
           "image": "تنزيل.png"
-        },
-        "majesty-grand": {
-          "name": "ماجستي & جراند",
-          "image": "فوريد.jpeg"
         }
       }
     }
   },
-  "orders": [],
-  "settings": {
-    "phoneNumbers": ["01154975655", "01013608610"],
-    "freeShippingThreshold": 2000,
-    "address": "مصر - القاهرة",
-    "telegram": {
-      "botToken": "8501596447:AAGK5xqwgyeDWaMPoUKBayYPNSRXFL5jZaA",
-      "chatId": "7292128411"
-    },
-    "colors": {
-      "primary": "#8B4513",
-      "secondary": "#D2691E",
-      "accent": "#F4A460",
-      "light": "#FAEBD7",
-      "dark": "#654321"
-    }
-  },
+  "dailyOffers": [],
   "offers": [
     {
       "title": "ضمان 10 سنوات",
@@ -237,5 +307,22 @@
       "description": "في جميع أنحاء القاهرة",
       "image": "mklop.png"
     }
-  ]
+  ],
+  "orders": [],
+  "settings": {
+    "phoneNumbers": ["01154975655", "01013608610"],
+    "freeShippingThreshold": 2000,
+    "address": "مصر - القاهرة",
+    "telegram": {
+      "botToken": "8501596447:AAGK5xqwgyeDWaMPoUKBayYPNSRXFL5jZaA",
+      "chatId": "7292128411"
+    },
+    "colors": {
+      "primary": "#8B008B",
+      "secondary": "#9932CC",
+      "accent": "#BA55D3",
+      "light": "#E6E6FA",
+      "dark": "#4B0082"
+    }
+  }
 }
